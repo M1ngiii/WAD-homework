@@ -8,6 +8,11 @@ header {
     height: 25px;
 }
 
+.headerImage {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
 
 nav {
     display: flex; 
@@ -71,8 +76,3 @@ section {
     display: flex;
     max-width: 330px;
 }
-
-.headerImage {
-    display: flex;
-}
-

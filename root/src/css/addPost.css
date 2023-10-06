@@ -9,7 +9,7 @@ header {
 }
 
 header nav {
-    display: inline-block;
+    display: flex;
     text-align: left;
 }
 

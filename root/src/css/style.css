@@ -14,7 +14,7 @@ header {
     margin: 0px 10px;
 }
 
-nav {
+header nav {
     display: flex; 
     align-items: center; 
 }
@@ -45,12 +45,20 @@ nav a:hover {
     max-width: 700px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 footer {
     display: flex;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    margin-top: auto;
 }
 
 section {

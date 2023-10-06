@@ -10,7 +10,14 @@ header {
 
 header nav {
     display: flex;
-    text-align: left;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 nav a {
@@ -29,4 +36,13 @@ nav a:hover {
     align-items: center;
     margin: 0px 10px;
     display: flex;
+}
+
+footer {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
 }

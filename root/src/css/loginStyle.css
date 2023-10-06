@@ -1,0 +1,32 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 25px;
+}
+
+/* Style for the navigation links */
+header nav {
+    display: inline-block;
+    text-align: left;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+header figure {
+    align-items: center;
+    margin: 0px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    
+}

@@ -52,21 +52,24 @@ section{
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
-    min-height: 700px; 
+    min-width: 320px;
+    min-height: 700px;
+    width: auto;
 }
 
-.loginBox{
+.addPostBox{
     justify-content: space-around; 
     padding: 20px; 
     background-color: #f0f0f0; 
     border: 1px solid #ccc; 
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 320px;
+    max-width: 500px;
+    min-width: 320px;
     border-radius: 5%;
     align-items: left;
     font-size: 17px;
+    flex: 1;
 }
 
 .postBody{

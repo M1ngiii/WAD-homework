@@ -26,7 +26,6 @@ body {
 }
 
 .post-header-actions {
-
     display: flex;
     max-width: 50px; 
 }
@@ -40,4 +39,9 @@ body {
 .post-content {
     display: flex;
     max-width: 330px;
+}
+
+.post-image ~ .post-content {
+    -webkit-text-size-adjust: auto;
+    font-family: 'Young Serif', serif;
 }

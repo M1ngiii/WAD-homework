@@ -4,33 +4,47 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="src\css\loginStyle.css">
+        <link rel="stylesheet" href="src\css\style.css">
         <title>login</title>
     </head>
 
     <body>
         <header>
             <nav>
-                <a href="index.html">Home</a>
+                <a id="homeButton" href="index.html">Home</a>
             </nav>
 
             <figure class="headerImage">
                 <img src="src/img/default-photo.png" width="30" height="30" alt="My picture">
             </figure>
             
-            
         </header>
+
         <section>
             <div class="loginBox">
                 <div class="loginHeader">
-                    
+                    <b>Welcome to PostIt</b>
+                </div>
+                
+                <div class="loginText">
+                    <a id="createAccount" href="" class="blueText">Create an account</a>
+                    <p>or</p>
+                    <p>Log In</p>
                 </div>
 
                 <div class="textFields">
 
+                    <!-- Hetkel ei kasutanud labeleid, aga ehk tulevikus muudame ja kasutame -->
+                    <label for="email"></label>
+                    <label for="password"></label>
+
+                    <input type="text" id="email" name="email" placeholder="Email"></input>
+                    <input type="text" id="password" name="password" placeholder="Password"></input>
                 </div>
 
                 <div class="logIn">
-
+                    <button type="logInSubmit" class="logInButton">Log In</button>
+                    <a id="forgotPassword" href="" class="blueText">Forgot password</a>
                 </div>
             </div>
         </section>

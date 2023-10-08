@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="src\css\loginStyle.css">
         <link rel="stylesheet" href="src\css\style.css">
         <title>login</title>
+        <script src="src\js\LoginLogic.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -25,25 +26,24 @@
                 <div class="loginHeader">
                     <b>Welcome to PostIt</b>
                 </div>
-                
+
                 <div class="loginText">
                     <a id="createAccount" href="" class="blueText">Create an account</a>
                     <p>or</p>
                     <p>Log In</p>
                 </div>
-
+            
                 <div class="textFields">
-
                     <!-- Hetkel ei kasutanud labeleid, aga ehk tulevikus muudame ja kasutame -->
                     <label for="email"></label>
                     <label for="password"></label>
 
-                    <input type="text" id="email" name="email" placeholder="Email"></input>
-                    <input type="text" id="password" name="password" placeholder="Password"></input>
+                    <input type="text" id="email" name="email" placeholder="Email" oninput="checkFields()"></input>
+                    <input type="text" id="password" name="password" placeholder="Password" oninput="checkFields()"></input>
                 </div>
 
                 <div class="logIn">
-                    <button type="logInSubmit" class="logInButton">Log In</button>
+                    <button onclick="location.href = 'index.html';" id="logInSubmit" type="logInSubmit" class="logInButton" disabled>Log In</button>
                     <a id="forgotPassword" href="" class="blueText">Forgot password</a>
                 </div>
             </div>

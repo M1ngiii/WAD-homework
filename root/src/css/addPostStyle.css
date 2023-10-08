@@ -41,7 +41,7 @@ section{
     max-height: 60vh;
 }
 
-.postBody{
+.addPostBox > .postBody{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,7 +65,7 @@ section{
     align-items: center;
 }
 
-.chooseFile button{
+.chooseFile > button{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -76,15 +76,7 @@ section{
     align-items: center;
     flex-direction: column;
 }
-.createPostButton{
+.createPost > .createPostButton{
     background-color:#b6d0de;
     transform: scale(1.3);
 }
-
-/*
-@media(max-width:550){
-    .addPostBox{
-        font-size: 20px;
-    }
-}
-*/

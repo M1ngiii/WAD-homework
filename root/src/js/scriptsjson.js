@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const postsContainer = document.getElementById("posts-container");
 
-    fetch('https://jsonbin.io/quick-store/6545758254105e766fcb1889')
+    fetch('https://json.extendsclass.com/bin/9a2ff0594e3f')
         .then(response => response.json())
         .then(posts => {
             console.log(posts)

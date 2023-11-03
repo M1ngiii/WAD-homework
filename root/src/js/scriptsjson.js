@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const postsContainer = document.getElementById("posts-container");
 
-    fetch('https://json.extendsclass.com/bin/1431b5ad9929')
+    fetch('https://json.extendsclass.com/bin/461ceebc341f')
         .then(response => response.json())
         .then(posts => {
-            console.log(posts)
             posts.forEach(post => {
                 const postDiv = document.createElement("div");
                 postDiv.className = "posts";
@@ -14,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const profileImage = document.createElement("img");
                 profileImage.className = "post-header-actions";
-                profileImage.src = post.image;
+                profileImage.src = post.profilepic;
                 profileImage.alt = "User Profile Picture";
 
                 const username = document.createElement("h2");

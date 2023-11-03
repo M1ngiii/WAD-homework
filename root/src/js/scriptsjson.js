@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const postsContainer = document.getElementById("posts-container");
 
-    fetch('https://json.extendsclass.com/bin/9a2ff0594e3f')
+    fetch('https://json.extendsclass.com/bin/1431b5ad9929')
         .then(response => response.json())
         .then(posts => {
             console.log(posts)

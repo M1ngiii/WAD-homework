@@ -10,11 +10,11 @@ section {
 .posts {
     width: auto; 
     padding: 20px; 
-    background-color: #f0f0f0;  
+    background-color: #f5e1c4;  
     display: flex; 
     flex-direction: column; 
     max-width: 700px;
-    border-top: 15px white solid;
+    border-top: 15px #fff7eb solid;
     border-radius: 5%;
 }
 

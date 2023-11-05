@@ -1,10 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
     const postsContainer = document.getElementById("posts-container");
 
-    fetch('https://json.extendsclass.com/bin/461ceebc341f')
+    /*
+    Your JSON bin has been created, with id 292847112c22.
+
+    URI to access this JSON bin:
+
+    https://json.extendsclass.com/bin/292847112c22
+    URI to access this JSON in a text editor:
+
+    https://extendsclass.com/jsonstorage/292847112c22
+    */
+    fetch('https://json.extendsclass.com/bin/292847112c22')
         .then(response => response.json())
         .then(posts => {
             posts.forEach(post => {
+                const createTime = document.createElement("p");
+                createTime.className = "createTime-actions";
+                
                 const postDiv = document.createElement("div");
                 postDiv.className = "posts";
 

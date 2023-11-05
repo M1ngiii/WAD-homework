@@ -22,8 +22,8 @@ section{
 .loginBox{
     justify-content: space-around; 
     padding: 20px; 
-    background-color: #f0f0f0; 
-    border: 1px solid #ccc; 
+    background-color: #f5e1c4; 
+    border: 1px solid #99620f; 
     display: flex;
     flex-direction: column;
     border-radius: 5%;

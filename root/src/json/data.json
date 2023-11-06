@@ -1,0 +1,71 @@
+[
+    {
+        "createtime": "22. October 2022",
+        "user": "Mr unknown",
+        "image": "src\\img\\default-photo.png",
+        "content": "New profile pic!!!",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Ben Burton",
+        "image": "src\\img\\python.png",
+        "content": "Managed to master this language!",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Joseph Duncan",
+        "image": "src\\img\\java.png",
+        "content": "Interesting language!",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "user": "Zane Wallace",
+        "image": "src\\img\\javascript.png",
+        "content": "Managed to master this language!",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Ted Hudson",
+        "image": "src\\img\\html.png",
+        "content": "Managed to master this not a programming language!",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Mr Arthur",
+        "image": "src\\img\\arthur.png",
+        "content": "Got this new overpowered weapon skin in Counter Strike 2",
+        "profilepic": "src\\img\\pickle.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Noble csgo",
+        "image": "src\\img\bluegem.png",
+        "content": "For sale price is negotiable",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "budget trader",
+        "image": "src\\img\\waterelemental.png",
+        "content": "this is nice",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Broky",
+        "image": "src\\img\\dlore.png",
+        "content": "Best achivement of my career",
+        "profilepic": "src\\img\\default-photo.png"
+    },
+    {
+        "createtime": "22. October 2022",
+        "user": "Lucky gambler",
+        "image": "src\\img\\ak.png",
+        "content": "just opened this",
+        "profilepic": "src\\img\\default-photo.png"
+    }
+]

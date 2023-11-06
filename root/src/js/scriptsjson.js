@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     https://extendsclass.com/jsonstorage/292847112c22
     */
-    fetch('https://json.extendsclass.com/bin/292847112c22')
+    //fetch('https://json.extendsclass.com/bin/292847112c22')
+    fetch('src\\json\\data.json')
         .then(response => response.json())
         .then(posts => {
             posts.forEach(post => {
